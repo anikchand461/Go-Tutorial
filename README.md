@@ -42,14 +42,13 @@ To find the GOROOT location , run this command -
 
 - - **pkg** - compiled versions of our imported go PACKAGES .
 
-- - **bin** - compiled executable binaries of of our go SCRPTS .
+- - **bin** - compiled executable binaries of of our go SCRIPTS .
 
-- In first **GOPATH** , we give the location of that folder , where our imported packages will be stores in this sub-folder format (we don't need **src** here. Obviously ,
-  we will not code in the imported package)
+- In first **GOROOT** , we specify the location where the executable binary packages of go resides , typically ```/usr/local/go``` .
 
-- In Second **GOPATH** , we give the location of that folder , where we will code our go projects. So , it must have proper folder structure
+- Then we add the location (GOROOT) to the linux's **PATH** variable , to let it know the location .
 
-- The **export PATH =** line tells the system to add path of go projects / libraries binary directory to system's PATH .
+- The **GOPATH** denotes the location of our go projects and created packages.
 
 - open your **.bashrc** ( and **.zshrc** if you use zsh file-system or any other additional file-system ) and paste these codes ( SUBSTITUTE THE FOLDER LOCATIONS ONLY ❗ )
 
@@ -75,5 +74,3 @@ Open **/src** of your go workspace . open terminal . run the following commands 
 
 ### IDE
 For me , Jetbrain's GOLAND is best environment where you can code in GO.
-
-
