@@ -74,5 +74,3 @@ Open **/src** of your go workspace . open terminal . run the following commands 
 
 ### IDE
 For me , Jetbrain's GOLAND is best environment where you can code in GO.
-
-
