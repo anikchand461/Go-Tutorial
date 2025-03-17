@@ -42,11 +42,11 @@ To find the GOROOT location , run this command -
 
 - - **pkg** - compiled versions of our imported go PACKAGES .
 
-- - **bin** - compiled executable binaries of of our go SCRPTS .
+- - **bin** - compiled executable binaries of of our go SCRIPTS .
 
 - In first **GOROOT** , we specify the location where the executable binary packages of go resides , typically ```/usr/local/go``` .
 
-- Then we add the location (GOROOT) to the linux's **PATH** varible , to let it know the location .
+- Then we add the location (GOROOT) to the linux's **PATH** variable , to let it know the location .
 
 - The **GOPATH** denotes the location of our go projects and created packages.
 
